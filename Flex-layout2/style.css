@@ -1,0 +1,67 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	background-color: gray;
+}
+.flex-header {
+	height: 8vh;
+	display: flex;
+	width: 80%;
+	margin: 3vh auto 3vh auto;
+	border-top: 3px solid orange;
+	border-bottom: 3px solid orange;
+	justify-content: space-around;
+}
+.title {
+	color: white;
+	line-height: 8vh;
+}
+
+ul li {
+	color: white;
+	display: inline-block;
+	margin: 0 10px;
+	line-height: 7vh;
+}
+.flex {
+	display: flex;
+	margin:0 auto;
+	width: 80%;
+	height: 90vh;
+	justify-content: space-around;
+}
+.box {
+    border: 2px solid gray;
+}
+ 
+.b1 {
+	width: 250px;
+	height: 250px;
+	background-image: url(jacket_image/kinoko1.webp);
+	background-size: cover;
+	border-radius: 10%;
+}
+.b2 {
+	width: 250px;
+	height: 250px;
+	background-image: url(jacket_image/nulba2.jpg);
+	background-size: cover;
+	border-radius: 10%;
+}
+.b3 {
+	width: 250px;
+	height: 250px;
+	background-image: url(jacket_image/raven1.webp);
+	background-size: cover;
+	border-radius: 10%;
+}
+.b4 {
+	width: 250px;
+	height: 250px;
+	background-image: url(jacket_image/woz1.jpg);
+	background-size: cover;
+	background-position: right;
+	border-radius: 10%;
+}
